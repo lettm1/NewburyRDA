@@ -1,0 +1,377 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="NewburyRDA.Site1" %>
+
+<%--<!DOCTYPE html>
+<html>--%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" dir="ltr" lang="en-US">
+
+
+
+<head runat="server">
+    <meta name="keywords" content="Newbury RDA disabled sen special needs autism autistic events horses horse" />
+
+    <meta charset="utf-8" />
+    <%--<meta http-equiv="x-ua-manifest.json" />--%>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <!-- Font Awesome -->
+    <%--	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"/>--%>
+
+    <!-- Bootstrap core CSS -->
+
+    
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet" />
+    <link href="css/jquery.mobile-1.4.5.css" rel="stylesheet" />
+
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="img/download.png" />
+
+    <style>
+        .grad {
+            background: red; /* For browsers that do not support gradients */
+            background: -webkit-linear-gradient(yellow,red); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(yellow,red); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(yellow,red); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(yellow,red); /* Standard syntax */
+        }
+
+        .smallerfont {
+            font-size: 12px;
+            color: white;
+        }
+
+        .smallfont {
+            font-size: 16px;
+            color: white;
+        }
+
+        .mediumfont {
+            font-size: 18px;
+            color: black;
+        }
+
+        .largefont {
+            font-size: 21px;
+            color: darkslategrey;
+        }
+
+        /*p, ul {
+            font-size: 13px;
+            color: black;
+
+        }*/
+
+        h6 {
+            font-size: 12px;
+        }
+
+        h5 {
+            font-size: 16px;
+        }
+
+        h4 {
+            font-size: 21px;
+        }
+
+        h3 {
+            font-size: 28px;
+        }
+
+        h2 {
+            font-size: 37px;
+        }
+
+        h1 {
+            font-size: 43px;
+        }
+
+        .smaller {
+            font-size: 12px;
+        }
+
+        .small {
+            font-size: 16px;
+        }
+
+        .medium {
+            font-size: 21px;
+        }
+
+        .large {
+            font-size: 28px;
+        }
+
+        .larger {
+            font-size: 37px;
+        }
+
+        p, a, label, span, ul {
+            font-size: 16px;
+        }
+
+
+        h6 {
+            color: #5AA532;
+        }
+
+        h5 {
+            color: #3E8817;
+        }
+
+        h4 {
+            color: #266902;
+        }
+
+        h6 {
+            color: #194800;
+        }
+
+        h5 {
+            color: #0E2700;
+        }
+
+        h4 {
+            color: #0E2700;
+        }
+
+        .bright a:visited, a:link {
+            color: blue;
+            /*font-weight:bold;*/
+        }
+
+
+
+        body {
+            /*background-image:url('img/titleleft.jpg');
+            background-size:cover;*/
+        }
+
+        a {
+            color: blue;
+        }
+
+
+.bg {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow:hidden;
+    z-index: -1;
+}
+
+.jumbotronn {
+    color: white;
+    text-shadow: #444 0 1px 1px;
+    background: transparent;
+}
+
+
+        h1, h2, h3, h4 {
+            font-family: 'Bree Serif', serif;
+        }
+
+
+        .card {
+            margin: 0px;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta name="google-site-verification" content="yBxYUTmiNfJ2fVnFq4ZLyCsQtf4SUdT2yPGpEte1_Vw" />
+</head>
+
+
+
+<body>
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-mobile-1.4.5.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+
+
+
+    <form id="form1">
+
+        <nav class="navbar navbar-toggleable-md navbar-dark  fixed-top " style="border-radius: 0px; background-color: #3E8817">
+                <div class="container">
+                    <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="default.aspx">
+                        <strong>Newbury RDA</strong>
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarNav1">
+                        <ul class="nav navbar-nav  ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="AutumnGiftFair.aspx">Autumn Gift Fair</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="VolunteerInfo.aspx">Volunteer Info</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Support.aspx">Support</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Ponies.aspx">Ponies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="FAQ.aspx">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="LatestNews.aspx">Latest News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Events.aspx">Events</a>
+                            </li>
+                           <li class="nav-item">
+                                <a class="nav-link" href="Contacts.aspx">Contact Us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    </form>
+
+
+
+    <div class="container  " style="" align="center">
+
+        <div align="center">
+
+
+
+           <div class="bg">
+                <div class="container" style="padding:0px; margin: 45px 0 0 0; margin-bottom: 0px">
+                    <img class="bgImage" src="Img/title3.jpg" style="cursor: pointer; width: 100%" onclick="location.href='default.aspx'" />
+                </div>
+            </div>
+            <div class="jumbotronn" style="display:none;margin-top:50px;width:100%;padding:0px;">
+                <div style="height:200px"></div>
+                <div class="row">
+                    <div class="hidden-xs col-sm-1">
+                    </div>
+                    <div class="col-xs-12 col-sm-10">
+                      <h1 style="color:red;font-weight:bold; background-color:white;text-align:center"></h1>
+                    </div>
+                    <div class="hidden-xs col-sm-1">
+                    </div>
+                </div>
+            </div>
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+
+    <div class="jumborest" style="display:none">
+
+    <form id="form2">
+        <nav class="navbar  navbar-dark " style="background-color: #3E8817">
+            <div align="center" >
+                <div class="row bright">
+                    <div class="col-sm-3 smallerfont" >
+                        <span class="smallerfont">Site Created by <a class="smallerfont" href="mailto:matthew.lett1@gmail.com" target="_top">Matthew Lett</a> - ©  Newbury RDA 2017</span>
+                    </div>
+                    <div class="col-sm-3 smallerfont" >
+                        <span class="smallerfont">Please do not reproduce any images without consent</span>
+                    </div>
+                    <div class="col-sm-3 smallerfont" >
+                        <span class="smallerfont">Please click here for our <a class="smallerfont" href="http://www.newburyrda.co.uk/Privacy.aspx">Privacy Policy </a> and <a class="smallerfont" href="http://www.newburyrda.co.uk/Accessibility.aspx">Accessabilty Statement</a></span>
+                    </div>
+                    <div class="col-sm-3 smallerfont" >
+                        <span class="smallerfont"><a href="TestSite.aspx">Test Site...</a></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </form>
+
+    </div>
+
+
+    <!-- Start your project here-->
+
+    <!-- /Start your project here-->
+
+
+<%--    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript"   src="js/jquery-mobile-1.3.2.js"></script>
+    <script type="text/javascript"   src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>--%>
+
+
+</body>
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-39414818-3', 'auto');
+    ga('send', 'pageview');
+
+
+    function parallax() {
+        var scrolled = $(window).scrollTop();
+        $('.bg').css('top', (-scrolled / 3.0) + 'px');
+    }
+
+
+
+    $(window).scroll(function (e) {
+        parallax();
+    });
+
+
+    $(window).on("load ", function (e) {
+        //var height = $(".bgImage")[0].getBoundingClientRect().height;
+        var height = $(".bgImage").height();
+        jumboHeight = height;
+        $(".jumbotronn").css("height", height);
+        $(".jumbotronn").css("display", "block");
+        $(".jumborest").css("display", "block");
+        $(".jumbotronhalf").css("height", height * .33);
+    });
+
+
+
+</script>
+
+
+
+</html>

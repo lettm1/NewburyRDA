@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B1C1523D-95D3-49B3-9425-40F11B86F217}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NewburyRDA</RootNamespace>
+    <AssemblyName>NewburyRDA</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Accessibility.aspx" />
+    <Content Include="AutumnGiftFair.aspx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AutumnGiftFair-donotuse.aspx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AutumnGiftFairStalls.aspx" />
+    <Content Include="chairman.aspx" />
+    <Content Include="Contacts.aspx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CSS\jquery-ui.css" />
+    <Content Include="CSS\jquery.mobile-1.4.5.css" />
+    <Content Include="Default_org.aspx" />
+    <Content Include="Default.aspx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Events.aspx" />
+    <Content Include="FAQ.aspx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Gallery.aspx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <AdditionalFiles Include="Img\download.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AdditionalFiles>
+    <Content Include="googlee92ccd5b215d5b80.html" />
+    <Content Include="Img\Ad1.png" />
+    <Content Include="Img\Ad2.png" />
+    <Content Include="Img\agf1.png" />
+    <Content Include="Img\agf2.png" />
+    <Content Include="Img\autumn.gif" />
+    <Content Include="Img\Balmoral1.jpg" />
+    <Content Include="Img\Balmoral2.jpg" />
+    <Content Include="Img\balmoral3.jpg" />
+    <Content Include="Img\boris2.jpg" />
+    <Content Include="Img\calendar-icon.png" />
+    <Content Include="Img\cream_dust.png" />
+    <Content Include="Img\facebook.png" />
+    <Content Include="Img\fair.png" />
+    <Content Include="Img\fair1.jpg" />
+    <Content Include="Img\fair2.jpg" />
+    <Content Include="Img\fair3.jpg" />
+    <Content Include="Img\fair4.jpg" />
+    <Content Include="Img\fair5.jpg" />
+    <Content Include="Img\fair6.jpg" />
+    <Content Include="Img\fairtables.jpg" />
+    <Content Include="Img\FAQ.png" />
+    <Content Include="Img\flyer.png" />
+    <Content Include="Img\Fran_and_Andy_Final_158.jpg" />
+    <Content Include="Img\home1.JPG" />
+    <Content Include="Img\kiss2.jpg" />
+    <Content Include="Img\map.png" />
+    <Content Include="Img\NatChamps\BlowOutFirst.jpg" />
+    <Content Include="Img\NatChamps\IMG_0010_9.jpg" />
+    <Content Include="Img\NatChamps\P1010755_1.jpeg" />
+    <Content Include="Img\NatChamps\P1010760_2.jpeg" />
+    <Content Include="Img\NatChamps\P1010769_3.jpeg" />
+    <Content Include="Img\NatChamps\P1010780_4.jpeg" />
+    <Content Include="Img\NatChamps\P1010792_7.jpeg" />
+    <Content Include="Img\NatChamps\P1010796_8.jpeg" />
+    <Content Include="Img\NatChamps\P1040475_5.JPG" />
+    <Content Include="Img\NatChamps\_6.jpeg" />
+    <Content Include="Img\newbury_rda_lessons.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\newbury_rda_lessons2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\News.png" />
+    <Content Include="Img\NextEvent.png" />
+    <Content Include="Img\Nvidia.jpeg" />
+    <Content Include="Img\nvidia1.jpeg" />
+    <Content Include="Img\nvidia\n1.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\nvidia\n10.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\nvidia\n2.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\nvidia\n3.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\nvidia\n4.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\nvidia\n5.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\nvidia\n6.JPeG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\nvidia\n7.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\nvidia\n8.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\nvidia\n9.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\pony_boris.jpg" />
+    <Content Include="Img\pony_bungle.jpg" />
+    <Content Include="Img\pony_many.jpg" />
+    <Content Include="Img\pony_murphy.jpg" />
+    <Content Include="Img\pony_peter.jpg" />
+    <Content Include="Img\pony_ted.jpg" />
+    <Content Include="Img\regional\r1.JPG" />
+    <Content Include="Img\regional\r10.JPG" />
+    <Content Include="Img\regional\r2.JPG" />
+    <Content Include="Img\regional\r3.JPG" />
+    <Content Include="Img\regional\r4.JPG" />
+    <Content Include="Img\regional\r5.JPG" />
+    <Content Include="Img\regional\r6.JPG" />
+    <Content Include="Img\regional\r7.JPG" />
+    <Content Include="Img\regional\r8.JPG" />
+    <Content Include="Img\regional\r9.JPG" />
+    <Content Include="Img\RIO.jpg" />
+    <Content Include="Img\Spencer Wilton.jpg" />
+    <Content Include="Img\Support.png" />
+    <Content Include="Img\svg\arrow_left.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\svg\arrow_right.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\tack.jpg" />
+    <Content Include="Img\title2.jpg" />
+    <Content Include="Img\title3.jpg" />
+    <Content Include="Img\titleleft.jpg" />
+    <Content Include="Img\truck\IMG_5801.JPG" />
+    <Content Include="Img\truck\IMG_5813.JPG" />
+    <Content Include="Img\truck\IMG_5817.JPG" />
+    <Content Include="Img\truck\IMG_5833.JPG" />
+    <Content Include="Img\truck\IMG_5834.JPG" />
+    <Content Include="Img\truck\IMG_5836.JPG" />
+    <Content Include="Img\truck\IMG_5841.JPG" />
+    <Content Include="Img\truck\IMG_5845.JPG" />
+    <Content Include="Img\truck\IMG_5856.JPG" />
+    <Content Include="Img\truck\IMG_5904.JPG" />
+    <Content Include="Img\volunteer.jpg" />
+    <Content Include="Img\Wine_Bluff_Evening_2017_poster.jpg" />
+    <Content Include="Img\woody.jpg" />
+    <Content Include="JS\jquery.mobile-1.4.5.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JS\Support.aspx" />
+    <Content Include="kiss.jpg" />
+    <Content Include="LatestNews.aspx" />
+    <Content Include="map.png" />
+    <Content Include="New.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="Font\Roboto\Roboto-Bold.eot" />
+    <Content Include="Font\Roboto\Roboto-Bold.ttf" />
+    <Content Include="Font\Roboto\Roboto-Bold.woff" />
+    <Content Include="Font\Roboto\Roboto-Bold.woff2" />
+    <Content Include="Font\Roboto\Roboto-Light.eot" />
+    <Content Include="Font\Roboto\Roboto-Light.ttf" />
+    <Content Include="Font\Roboto\Roboto-Light.woff">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Font\Roboto\Roboto-Light.woff2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Font\Roboto\Roboto-Medium.eot" />
+    <Content Include="Font\Roboto\Roboto-Medium.ttf" />
+    <Content Include="Font\Roboto\Roboto-Medium.woff" />
+    <Content Include="Font\Roboto\Roboto-Medium.woff2" />
+    <Content Include="Font\Roboto\Roboto-Regular.eot" />
+    <Content Include="Font\Roboto\Roboto-Regular.ttf" />
+    <Content Include="Font\Roboto\Roboto-Regular.woff">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Font\Roboto\Roboto-Regular.woff2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Font\Roboto\Roboto-Thin.eot" />
+    <Content Include="Font\Roboto\Roboto-Thin.ttf" />
+    <Content Include="Font\Roboto\Roboto-Thin.woff" />
+    <Content Include="Font\Roboto\Roboto-Thin.woff2" />
+    <Content Include="Ponies.aspx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Privacy.aspx" />
+    <Content Include="Sass\mdb.scss" />
+    <Content Include="Sass\mdb\free\data\_colors.scss" />
+    <Content Include="Sass\mdb\free\data\_mixins.scss" />
+    <Content Include="Sass\mdb\free\data\_prefixer.scss" />
+    <Content Include="Sass\mdb\free\data\_variables-b4.scss" />
+    <Content Include="Sass\mdb\free\data\_variables.scss" />
+    <Content Include="Sass\mdb\free\_animations.scss" />
+    <Content Include="Sass\mdb\free\_buttons.scss" />
+    <Content Include="Sass\mdb\free\_cards-basic.scss" />
+    <Content Include="Sass\mdb\free\_carousels-basic.scss" />
+    <Content Include="Sass\mdb\free\_footer.scss" />
+    <Content Include="Sass\mdb\free\_forms-basic.scss" />
+    <Content Include="Sass\mdb\free\_global.scss" />
+    <Content Include="Sass\mdb\free\_helpers.scss" />
+    <Content Include="Sass\mdb\free\_hover-effects.scss" />
+    <Content Include="Sass\mdb\free\_navbars.scss" />
+    <Content Include="Sass\mdb\free\_roboto.scss" />
+    <Content Include="Sass\mdb\free\_typography.scss" />
+    <Content Include="Sass\mdb\free\_waves.scss" />
+    <SplashScreen Include="manifest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </SplashScreen>
+    <Content Include="AutumnGiftFair.pdf" />
+    <Content Include="JS\jquery-mobile-1.3.2.js" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
+    <None Include="Properties\PublishProfiles\NewburyRDA - Web Deploy.pubxml" />
+    <Content Include="Site1.Master" />
+    <Content Include="Site2.Master" />
+    <Content Include="TestSite.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\bootstrap.css" />
+    <Content Include="CSS\bootstrap.min.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CSS\mdb.css" />
+    <Content Include="CSS\mdb.min.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CSS\style.css" />
+    <Content Include="Form.aspx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img\newbury_rda_kisses.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <AdditionalFiles Include="Img\title.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AdditionalFiles>
+    <Content Include="JS\bootstrap.js" />
+    <Content Include="JS\bootstrap.min.js" />
+    <Content Include="JS\jquery-2.2.3.js" />
+    <Content Include="JS\jquery-2.2.3.min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JS\jquery-3.1.1.js" />
+    <Content Include="JS\jquery-3.1.1.min.js" />
+    <Content Include="JS\mdb.js" />
+    <Content Include="JS\mdb.min.js" />
+    <Content Include="JS\tether.js" />
+    <Content Include="JS\tether.min.js" />
+    <Content Include="Sass\README.txt" />
+    <Content Include="sitemap.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Support.aspx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="tack.html" />
+    <Content Include="test.aspx" />
+    <Content Include="TestSite.aspx" />
+    <Content Include="VolunteerInfo.aspx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Web.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accessibility.aspx.cs">
+      <DependentUpon>Accessibility.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accessibility.aspx.designer.cs">
+      <DependentUpon>Accessibility.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AutumnGiftFair.aspx.cs">
+      <DependentUpon>AutumnGiftFair.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="AutumnGiftFair.aspx.designer.cs">
+      <DependentUpon>AutumnGiftFair.aspx</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="AutumnGiftFair-donotuse.aspx.cs">
+      <DependentUpon>AutumnGiftFair-donotuse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="AutumnGiftFair-donotuse.aspx.designer.cs">
+      <DependentUpon>AutumnGiftFair-donotuse.aspx</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="AutumnGiftFairStalls.aspx.cs">
+      <DependentUpon>AutumnGiftFairStalls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AutumnGiftFairStalls.aspx.designer.cs">
+      <DependentUpon>AutumnGiftFairStalls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chairman.aspx.cs">
+      <DependentUpon>chairman.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chairman.aspx.designer.cs">
+      <DependentUpon>chairman.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contacts.aspx.cs">
+      <DependentUpon>Contacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Contacts.aspx.designer.cs">
+      <DependentUpon>Contacts.aspx</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Default_org.aspx.cs">
+      <DependentUpon>Default_org.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default_org.aspx.designer.cs">
+      <DependentUpon>Default_org.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Events.aspx.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Events.aspx.designer.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FAQ.aspx.cs">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="FAQ.aspx.designer.cs">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Form.aspx.cs">
+      <DependentUpon>Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Form.aspx.designer.cs">
+      <DependentUpon>Form.aspx</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Gallery.aspx.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Gallery.aspx.designer.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="JS\Support.aspx.cs">
+      <DependentUpon>Support.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JS\Support.aspx.designer.cs">
+      <DependentUpon>Support.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LatestNews.aspx.cs">
+      <DependentUpon>LatestNews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LatestNews.aspx.designer.cs">
+      <DependentUpon>LatestNews.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="New.aspx.cs">
+      <DependentUpon>New.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="New.aspx.designer.cs">
+      <DependentUpon>New.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ponies.aspx.cs">
+      <DependentUpon>Ponies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Ponies.aspx.designer.cs">
+      <DependentUpon>Ponies.aspx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Privacy.aspx.cs">
+      <DependentUpon>Privacy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Privacy.aspx.designer.cs">
+      <DependentUpon>Privacy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Support.aspx.cs">
+      <DependentUpon>Support.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Support.aspx.designer.cs">
+      <DependentUpon>Support.aspx</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestSite.aspx.cs">
+      <DependentUpon>TestSite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestSite.aspx.designer.cs">
+      <DependentUpon>TestSite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestSite.Master.cs">
+      <DependentUpon>TestSite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestSite.Master.designer.cs">
+      <DependentUpon>TestSite.Master</DependentUpon>
+    </Compile>
+    <Compile Include="VolunteerInfo.aspx.cs">
+      <DependentUpon>VolunteerInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="VolunteerInfo.aspx.designer.cs">
+      <DependentUpon>VolunteerInfo.aspx</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61117</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:61119/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

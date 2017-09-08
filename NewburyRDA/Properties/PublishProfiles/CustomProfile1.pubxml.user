@@ -1,0 +1,851 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxeGLKvA+oESxwSPrxRI96wAAAAACAAAAAAAQZgAAAAEAACAAAAAoRU1WnPEmlZtp61V8DYITcAAGpxMnlqijfTqqDi7azwAAAAAOgAAAAAIAACAAAACr2aiIYj6Lfic8VIsR5/TBmuowSpnlxgXr8312QzXiEyAAAACDPuC8yO4AMmTFjg8dqBn53s1KVO/cjH9p6iFlYFjgvEAAAAD6lah46cBCxBOkfOS4CmkeSM21oNvqH8XN6L4/fsuVfOLQVTlZfrzadkjCjBtugXZYxr2kx7X0VqqsiVxVz5Cl</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp.newburyrda.co.uk/htdocs</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Accessibility.aspx">
+      <publishTime>07/27/2017 19:48:10</publishTime>
+    </File>
+    <File Include="AutumnGiftFair-donotuse.aspx">
+      <publishTime>03/28/2017 18:41:57</publishTime>
+    </File>
+    <File Include="AutumnGiftFair.aspx">
+      <publishTime>09/04/2017 17:55:53</publishTime>
+    </File>
+    <File Include="AutumnGiftFair.pdf">
+      <publishTime>07/27/2017 15:41:20</publishTime>
+    </File>
+    <File Include="AutumnGiftFairStalls.aspx">
+      <publishTime>07/29/2017 16:39:43</publishTime>
+    </File>
+    <File Include="AutumnGiftFayre.aspx">
+      <publishTime>03/17/2017 14:32:47</publishTime>
+    </File>
+    <File Include="bin/AutumnGiftFair-donotuse.aspx">
+      <publishTime>03/28/2017 18:41:57</publishTime>
+    </File>
+    <File Include="bin/AutumnGiftFair-donotuse.aspx.cs">
+      <publishTime>03/25/2017 16:58:58</publishTime>
+    </File>
+    <File Include="bin/AutumnGiftFair-donotuse.aspx.designer.cs">
+      <publishTime>03/25/2017 17:00:12</publishTime>
+    </File>
+    <File Include="bin/AutumnGiftFair.aspx">
+      <publishTime>09/04/2017 20:37:53</publishTime>
+    </File>
+    <File Include="bin/AutumnGiftFair.aspx.cs">
+      <publishTime>07/27/2017 15:26:38</publishTime>
+    </File>
+    <File Include="bin/AutumnGiftFair.aspx.designer.cs">
+      <publishTime>07/27/2017 15:26:38</publishTime>
+    </File>
+    <File Include="bin/Contacts.aspx">
+      <publishTime>09/04/2017 16:46:25</publishTime>
+    </File>
+    <File Include="bin/Contacts.aspx.cs">
+      <publishTime>03/08/2017 20:54:29</publishTime>
+    </File>
+    <File Include="bin/Contacts.aspx.designer.cs">
+      <publishTime>03/08/2017 20:54:29</publishTime>
+    </File>
+    <File Include="bin/CSS/bootstrap.min.css">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="bin/CSS/mdb.min.css">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="bin/Default.aspx">
+      <publishTime>09/04/2017 20:37:53</publishTime>
+    </File>
+    <File Include="bin/Default.aspx.cs">
+      <publishTime>06/20/2017 20:07:47</publishTime>
+    </File>
+    <File Include="bin/Default.aspx.designer.cs">
+      <publishTime>07/28/2017 16:20:25</publishTime>
+    </File>
+    <File Include="bin/Default3.aspx">
+      <publishTime>06/27/2017 20:26:04</publishTime>
+    </File>
+    <File Include="bin/Default3.aspx.cs">
+      <publishTime>06/20/2017 20:07:47</publishTime>
+    </File>
+    <File Include="bin/Default3.aspx.designer.cs">
+      <publishTime>06/20/2017 20:08:03</publishTime>
+    </File>
+    <File Include="bin/FAQ.aspx">
+      <publishTime>08/04/2017 16:28:37</publishTime>
+    </File>
+    <File Include="bin/FAQ.aspx.cs">
+      <publishTime>03/09/2017 14:03:44</publishTime>
+    </File>
+    <File Include="bin/FAQ.aspx.designer.cs">
+      <publishTime>03/09/2017 14:03:44</publishTime>
+    </File>
+    <File Include="bin/Font/Roboto/Roboto-Light.woff">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="bin/Font/Roboto/Roboto-Light.woff2">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="bin/Font/Roboto/Roboto-Regular.woff">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="bin/Font/Roboto/Roboto-Regular.woff2">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="bin/Form.aspx">
+      <publishTime>03/10/2017 18:41:27</publishTime>
+    </File>
+    <File Include="bin/Form.aspx.cs">
+      <publishTime>03/08/2017 18:25:27</publishTime>
+    </File>
+    <File Include="bin/Form.aspx.designer.cs">
+      <publishTime>03/08/2017 18:25:27</publishTime>
+    </File>
+    <File Include="bin/Gallery.aspx">
+      <publishTime>03/10/2017 18:28:07</publishTime>
+    </File>
+    <File Include="bin/Gallery.aspx.cs">
+      <publishTime>03/09/2017 12:39:07</publishTime>
+    </File>
+    <File Include="bin/Gallery.aspx.designer.cs">
+      <publishTime>03/09/2017 12:47:22</publishTime>
+    </File>
+    <File Include="bin/Img/newbury_rda_kisses.jpg">
+      <publishTime>06/27/2017 20:25:02</publishTime>
+    </File>
+    <File Include="bin/Img/newbury_rda_lessons.jpg">
+      <publishTime>06/27/2017 20:24:47</publishTime>
+    </File>
+    <File Include="bin/Img/newbury_rda_lessons2.jpg">
+      <publishTime>03/08/2017 20:46:57</publishTime>
+    </File>
+    <File Include="bin/Img/nvidia/n1.jpeg">
+      <publishTime>06/27/2017 20:11:26</publishTime>
+    </File>
+    <File Include="bin/Img/nvidia/n10.jpeg">
+      <publishTime>06/27/2017 20:12:58</publishTime>
+    </File>
+    <File Include="bin/Img/nvidia/n2.jpeg">
+      <publishTime>06/27/2017 20:13:00</publishTime>
+    </File>
+    <File Include="bin/Img/nvidia/n3.jpeg">
+      <publishTime>06/27/2017 20:12:14</publishTime>
+    </File>
+    <File Include="bin/Img/nvidia/n4.jpeg">
+      <publishTime>06/27/2017 20:12:18</publishTime>
+    </File>
+    <File Include="bin/Img/nvidia/n5.jpeg">
+      <publishTime>06/27/2017 20:12:22</publishTime>
+    </File>
+    <File Include="bin/Img/nvidia/n6.JPeG">
+      <publishTime>06/27/2017 20:12:46</publishTime>
+    </File>
+    <File Include="bin/Img/nvidia/n6.JPG">
+      <publishTime>06/27/2017 20:12:46</publishTime>
+    </File>
+    <File Include="bin/Img/nvidia/n7.jpeg">
+      <publishTime>06/27/2017 20:12:50</publishTime>
+    </File>
+    <File Include="bin/Img/nvidia/n8.jpeg">
+      <publishTime>06/27/2017 20:12:52</publishTime>
+    </File>
+    <File Include="bin/Img/nvidia/n9.jpeg">
+      <publishTime>06/27/2017 20:12:56</publishTime>
+    </File>
+    <File Include="bin/Img/svg/arrow_left.svg">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="bin/Img/svg/arrow_right.svg">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="bin/JS/jquery-2.2.3.min.js">
+      <publishTime>03/08/2017 17:14:58</publishTime>
+    </File>
+    <File Include="bin/JS/jquery.mobile-1.4.5.js">
+      <publishTime>06/27/2017 20:30:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>12/13/2016 03:10:32</publishTime>
+    </File>
+    <File Include="bin/NewburyRDA.dll">
+      <publishTime>08/06/2017 19:47:42</publishTime>
+    </File>
+    <File Include="bin/Ponies.aspx">
+      <publishTime>08/05/2017 13:15:02</publishTime>
+    </File>
+    <File Include="bin/Ponies.aspx.cs">
+      <publishTime>03/09/2017 14:03:27</publishTime>
+    </File>
+    <File Include="bin/Ponies.aspx.designer.cs">
+      <publishTime>03/09/2017 14:03:27</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 15:50:24</publishTime>
+    </File>
+    <File Include="bin/Site1.Master">
+      <publishTime>05/14/2017 20:26:12</publishTime>
+    </File>
+    <File Include="bin/Site1.Master.cs">
+      <publishTime>03/08/2017 17:21:14</publishTime>
+    </File>
+    <File Include="bin/Site1.Master.designer.cs">
+      <publishTime>03/17/2017 15:14:11</publishTime>
+    </File>
+    <File Include="bin/sitemap.xml">
+      <publishTime>03/26/2017 21:32:38</publishTime>
+    </File>
+    <File Include="bin/Support.aspx">
+      <publishTime>08/05/2017 14:21:15</publishTime>
+    </File>
+    <File Include="bin/Support.aspx.cs">
+      <publishTime>03/09/2017 13:37:08</publishTime>
+    </File>
+    <File Include="bin/Support.aspx.designer.cs">
+      <publishTime>03/09/2017 13:37:08</publishTime>
+    </File>
+    <File Include="bin/VolunteerInfo.aspx">
+      <publishTime>08/04/2017 16:47:53</publishTime>
+    </File>
+    <File Include="bin/VolunteerInfo.aspx.cs">
+      <publishTime>03/08/2017 20:43:02</publishTime>
+    </File>
+    <File Include="bin/VolunteerInfo.aspx.designer.cs">
+      <publishTime>03/08/2017 20:43:02</publishTime>
+    </File>
+    <File Include="bin/Web.config">
+      <publishTime>06/27/2017 20:47:24</publishTime>
+    </File>
+    <File Include="bin/Web.Debug.config">
+      <publishTime>03/08/2017 17:13:21</publishTime>
+    </File>
+    <File Include="bin/Web.Release.config">
+      <publishTime>03/08/2017 17:13:22</publishTime>
+    </File>
+    <File Include="chairman.aspx">
+      <publishTime>08/04/2017 16:29:28</publishTime>
+    </File>
+    <File Include="Contacts.aspx">
+      <publishTime>09/04/2017 16:46:25</publishTime>
+    </File>
+    <File Include="CSS/bootstrap.css">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="CSS/bootstrap.min.css">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="CSS/jquery-ui.css">
+      <publishTime>07/31/2017 17:52:11</publishTime>
+    </File>
+    <File Include="CSS/jquery.mobile-1.4.5.css">
+      <publishTime>06/27/2017 20:30:37</publishTime>
+    </File>
+    <File Include="CSS/mdb.css">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="CSS/mdb.min.css">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="CSS/style.css">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>09/04/2017 20:37:53</publishTime>
+    </File>
+    <File Include="Default2.aspx">
+      <publishTime>06/19/2017 21:48:08</publishTime>
+    </File>
+    <File Include="Default3.aspx">
+      <publishTime>06/27/2017 20:26:04</publishTime>
+    </File>
+    <File Include="Default_org.aspx">
+      <publishTime>06/27/2017 20:20:44</publishTime>
+    </File>
+    <File Include="Events.aspx">
+      <publishTime>09/04/2017 20:37:53</publishTime>
+    </File>
+    <File Include="FAQ.aspx">
+      <publishTime>08/04/2017 16:28:37</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Bold.eot">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Bold.ttf">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Bold.woff">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Bold.woff2">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Light.eot">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Light.ttf">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Light.woff">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Light.woff2">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Medium.eot">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Medium.ttf">
+      <publishTime>03/08/2017 17:14:56</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Medium.woff">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Medium.woff2">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Regular.eot">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Regular.ttf">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Regular.woff">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Regular.woff2">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Thin.eot">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Thin.ttf">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Thin.woff">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="Font/Roboto/Roboto-Thin.woff2">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="Form.aspx">
+      <publishTime>03/10/2017 18:41:27</publishTime>
+    </File>
+    <File Include="Gallery.aspx">
+      <publishTime>03/10/2017 18:28:07</publishTime>
+    </File>
+    <File Include="googlee92ccd5b215d5b80.html">
+      <publishTime>03/16/2017 11:58:34</publishTime>
+    </File>
+    <File Include="Img/Ad1.png">
+      <publishTime>07/27/2017 20:54:14</publishTime>
+    </File>
+    <File Include="Img/Ad2.png">
+      <publishTime>07/27/2017 15:35:15</publishTime>
+    </File>
+    <File Include="Img/agf1.png">
+      <publishTime>07/27/2017 20:53:58</publishTime>
+    </File>
+    <File Include="Img/agf2.png">
+      <publishTime>07/27/2017 20:54:08</publishTime>
+    </File>
+    <File Include="Img/autumn.gif">
+      <publishTime>03/17/2017 14:43:07</publishTime>
+    </File>
+    <File Include="Img/Balmoral1.jpg">
+      <publishTime>05/14/2017 17:50:16</publishTime>
+    </File>
+    <File Include="Img/Balmoral2.jpg">
+      <publishTime>05/14/2017 17:50:29</publishTime>
+    </File>
+    <File Include="Img/balmoral3.jpg">
+      <publishTime>05/14/2017 20:06:44</publishTime>
+    </File>
+    <File Include="Img/boris2.jpg">
+      <publishTime>07/28/2017 11:45:49</publishTime>
+    </File>
+    <File Include="Img/calendar-icon.png">
+      <publishTime>08/04/2017 15:28:34</publishTime>
+    </File>
+    <File Include="Img/cream_dust.png">
+      <publishTime>10/01/2012 15:22:16</publishTime>
+    </File>
+    <File Include="Img/facebook.png">
+      <publishTime>05/14/2017 18:31:39</publishTime>
+    </File>
+    <File Include="Img/fair.png">
+      <publishTime>08/06/2017 19:42:15</publishTime>
+    </File>
+    <File Include="Img/fair1.jpg">
+      <publishTime>05/14/2017 20:08:24</publishTime>
+    </File>
+    <File Include="Img/fair2.jpg">
+      <publishTime>05/14/2017 20:08:30</publishTime>
+    </File>
+    <File Include="Img/fair3.jpg">
+      <publishTime>05/14/2017 20:08:36</publishTime>
+    </File>
+    <File Include="Img/fair4.jpg">
+      <publishTime>05/14/2017 20:08:44</publishTime>
+    </File>
+    <File Include="Img/fair5.jpg">
+      <publishTime>05/14/2017 20:08:49</publishTime>
+    </File>
+    <File Include="Img/fair6.jpg">
+      <publishTime>05/14/2017 20:08:55</publishTime>
+    </File>
+    <File Include="Img/fairtables.jpg">
+      <publishTime>03/09/2017 12:06:06</publishTime>
+    </File>
+    <File Include="Img/FAQ.png">
+      <publishTime>08/05/2017 14:25:49</publishTime>
+    </File>
+    <File Include="Img/flyer.png">
+      <publishTime>08/06/2017 19:47:25</publishTime>
+    </File>
+    <File Include="Img/Fran_and_Andy_Final_158.jpg">
+      <publishTime>03/09/2017 12:05:52</publishTime>
+    </File>
+    <File Include="Img/home1.JPG">
+      <publishTime>03/28/2017 10:22:52</publishTime>
+    </File>
+    <File Include="Img/kiss2.jpg">
+      <publishTime>08/05/2017 12:40:47</publishTime>
+    </File>
+    <File Include="Img/map.png">
+      <publishTime>08/05/2017 12:46:58</publishTime>
+    </File>
+    <File Include="Img/NatChamps/BlowOutFirst.jpg">
+      <publishTime>07/27/2017 13:35:14</publishTime>
+    </File>
+    <File Include="Img/NatChamps/IMG_0010_9.jpg">
+      <publishTime>07/27/2017 10:52:06</publishTime>
+    </File>
+    <File Include="Img/NatChamps/P1010755_1.jpeg">
+      <publishTime>07/24/2017 11:04:56</publishTime>
+    </File>
+    <File Include="Img/NatChamps/P1010760_2.jpeg">
+      <publishTime>07/24/2017 11:04:56</publishTime>
+    </File>
+    <File Include="Img/NatChamps/P1010769_3.jpeg">
+      <publishTime>07/24/2017 11:04:56</publishTime>
+    </File>
+    <File Include="Img/NatChamps/P1010780_4.jpeg">
+      <publishTime>07/24/2017 11:04:56</publishTime>
+    </File>
+    <File Include="Img/NatChamps/P1010792_7.jpeg">
+      <publishTime>07/24/2017 11:04:56</publishTime>
+    </File>
+    <File Include="Img/NatChamps/P1010796_8.jpeg">
+      <publishTime>07/24/2017 11:04:56</publishTime>
+    </File>
+    <File Include="Img/NatChamps/P1040475_5.JPG">
+      <publishTime>07/27/2017 10:57:22</publishTime>
+    </File>
+    <File Include="Img/NatChamps/_6.jpeg">
+      <publishTime>07/27/2017 10:52:06</publishTime>
+    </File>
+    <File Include="Img/newburyrda_mannie.jpg">
+      <publishTime>03/09/2017 12:04:42</publishTime>
+    </File>
+    <File Include="Img/newbury_rda_kisses.jpg">
+      <publishTime>06/27/2017 20:25:02</publishTime>
+    </File>
+    <File Include="Img/newbury_rda_lessons.jpg">
+      <publishTime>06/27/2017 20:24:47</publishTime>
+    </File>
+    <File Include="Img/newbury_rda_lessons2.jpg">
+      <publishTime>03/08/2017 20:46:57</publishTime>
+    </File>
+    <File Include="Img/News.png">
+      <publishTime>08/04/2017 15:26:32</publishTime>
+    </File>
+    <File Include="Img/NextEvent.png">
+      <publishTime>03/17/2017 13:34:31</publishTime>
+    </File>
+    <File Include="Img/Nvidia.jpeg">
+      <publishTime>06/19/2017 20:27:39</publishTime>
+    </File>
+    <File Include="Img/nvidia/n1.jpeg">
+      <publishTime>06/27/2017 20:11:26</publishTime>
+    </File>
+    <File Include="Img/nvidia/n10.jpeg">
+      <publishTime>06/27/2017 20:12:58</publishTime>
+    </File>
+    <File Include="Img/nvidia/n2.jpeg">
+      <publishTime>06/27/2017 20:13:00</publishTime>
+    </File>
+    <File Include="Img/nvidia/n3.jpeg">
+      <publishTime>06/27/2017 20:12:14</publishTime>
+    </File>
+    <File Include="Img/nvidia/n4.jpeg">
+      <publishTime>06/27/2017 20:12:18</publishTime>
+    </File>
+    <File Include="Img/nvidia/n5.jpeg">
+      <publishTime>06/27/2017 20:12:22</publishTime>
+    </File>
+    <File Include="Img/nvidia/n6.JPeG">
+      <publishTime>06/27/2017 20:12:46</publishTime>
+    </File>
+    <File Include="Img/nvidia/n6.JPG">
+      <publishTime>06/27/2017 20:12:46</publishTime>
+    </File>
+    <File Include="Img/nvidia/n7.jpeg">
+      <publishTime>06/27/2017 20:12:50</publishTime>
+    </File>
+    <File Include="Img/nvidia/n8.jpeg">
+      <publishTime>06/27/2017 20:12:52</publishTime>
+    </File>
+    <File Include="Img/nvidia/n9.jpeg">
+      <publishTime>06/27/2017 20:12:56</publishTime>
+    </File>
+    <File Include="Img/nvidia1.jpeg">
+      <publishTime>06/27/2017 19:36:56</publishTime>
+    </File>
+    <File Include="Img/pony_boris.jpg">
+      <publishTime>03/17/2017 12:25:59</publishTime>
+    </File>
+    <File Include="Img/pony_bungle.jpg">
+      <publishTime>03/17/2017 12:17:02</publishTime>
+    </File>
+    <File Include="Img/pony_many.jpg">
+      <publishTime>03/09/2017 12:04:42</publishTime>
+    </File>
+    <File Include="Img/pony_murphy.jpg">
+      <publishTime>03/17/2017 12:26:56</publishTime>
+    </File>
+    <File Include="Img/pony_peter.jpg">
+      <publishTime>03/17/2017 12:16:28</publishTime>
+    </File>
+    <File Include="Img/pony_ted.jpg">
+      <publishTime>03/17/2017 12:17:18</publishTime>
+    </File>
+    <File Include="Img/regional/r1.JPG">
+      <publishTime>06/27/2017 19:47:20</publishTime>
+    </File>
+    <File Include="Img/regional/r10.JPG">
+      <publishTime>06/27/2017 19:47:18</publishTime>
+    </File>
+    <File Include="Img/regional/r2.JPG">
+      <publishTime>06/27/2017 19:47:26</publishTime>
+    </File>
+    <File Include="Img/regional/r3.JPG">
+      <publishTime>06/27/2017 19:47:24</publishTime>
+    </File>
+    <File Include="Img/regional/r4.JPG">
+      <publishTime>06/27/2017 19:47:28</publishTime>
+    </File>
+    <File Include="Img/regional/r5.JPG">
+      <publishTime>06/27/2017 19:47:30</publishTime>
+    </File>
+    <File Include="Img/regional/r6.JPG">
+      <publishTime>06/27/2017 19:47:08</publishTime>
+    </File>
+    <File Include="Img/regional/r7.JPG">
+      <publishTime>06/27/2017 19:47:10</publishTime>
+    </File>
+    <File Include="Img/regional/r8.JPG">
+      <publishTime>06/27/2017 19:47:14</publishTime>
+    </File>
+    <File Include="Img/regional/r9.JPG">
+      <publishTime>06/27/2017 19:47:16</publishTime>
+    </File>
+    <File Include="Img/RIO.jpg">
+      <publishTime>07/27/2017 15:23:20</publishTime>
+    </File>
+    <File Include="Img/Spencer Wilton.jpg">
+      <publishTime>07/27/2017 18:02:29</publishTime>
+    </File>
+    <File Include="Img/Support.png">
+      <publishTime>08/05/2017 13:10:09</publishTime>
+    </File>
+    <File Include="Img/svg/arrow_left.svg">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="Img/svg/arrow_right.svg">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="Img/tack.jpg">
+      <publishTime>03/27/2017 20:50:36</publishTime>
+    </File>
+    <File Include="Img/title2.jpg">
+      <publishTime>03/21/2017 15:31:13</publishTime>
+    </File>
+    <File Include="Img/title3.jpg">
+      <publishTime>06/19/2017 20:58:32</publishTime>
+    </File>
+    <File Include="Img/titleleft.jpg">
+      <publishTime>04/01/2017 19:02:47</publishTime>
+    </File>
+    <File Include="Img/truck/IMG_5801.JPG">
+      <publishTime>08/01/2017 20:16:26</publishTime>
+    </File>
+    <File Include="Img/truck/IMG_5813.JPG">
+      <publishTime>07/27/2017 19:31:22</publishTime>
+    </File>
+    <File Include="Img/truck/IMG_5817.JPG">
+      <publishTime>07/27/2017 19:31:22</publishTime>
+    </File>
+    <File Include="Img/truck/IMG_5833.JPG">
+      <publishTime>07/27/2017 19:31:22</publishTime>
+    </File>
+    <File Include="Img/truck/IMG_5834.JPG">
+      <publishTime>08/01/2017 20:16:38</publishTime>
+    </File>
+    <File Include="Img/truck/IMG_5836.JPG">
+      <publishTime>08/01/2017 20:16:49</publishTime>
+    </File>
+    <File Include="Img/truck/IMG_5841.JPG">
+      <publishTime>08/01/2017 20:16:54</publishTime>
+    </File>
+    <File Include="Img/truck/IMG_5845.JPG">
+      <publishTime>07/27/2017 19:31:22</publishTime>
+    </File>
+    <File Include="Img/truck/IMG_5856.JPG">
+      <publishTime>08/01/2017 20:17:02</publishTime>
+    </File>
+    <File Include="Img/truck/IMG_5904.JPG">
+      <publishTime>08/01/2017 20:17:09</publishTime>
+    </File>
+    <File Include="Img/volunteer.jpg">
+      <publishTime>08/05/2017 12:52:17</publishTime>
+    </File>
+    <File Include="Img/Wine_Bluff_Evening_2017_poster.jpg">
+      <publishTime>03/09/2017 12:03:53</publishTime>
+    </File>
+    <File Include="Img/woody.jpg">
+      <publishTime>07/27/2017 18:05:27</publishTime>
+    </File>
+    <File Include="JS/bootstrap.js">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="JS/bootstrap.min.js">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="JS/jquery-2.2.3.js">
+      <publishTime>03/08/2017 17:14:57</publishTime>
+    </File>
+    <File Include="JS/jquery-2.2.3.min.js">
+      <publishTime>03/08/2017 17:14:58</publishTime>
+    </File>
+    <File Include="JS/jquery-3.1.1.js">
+      <publishTime>03/08/2017 17:14:58</publishTime>
+    </File>
+    <File Include="JS/jquery-3.1.1.min.js">
+      <publishTime>03/08/2017 17:14:58</publishTime>
+    </File>
+    <File Include="JS/jquery-mobile-1.3.2.js">
+      <publishTime>07/31/2017 17:48:17</publishTime>
+    </File>
+    <File Include="JS/jquery.mobile-1.4.5.js">
+      <publishTime>06/27/2017 20:30:46</publishTime>
+    </File>
+    <File Include="JS/mdb.js">
+      <publishTime>03/08/2017 17:14:58</publishTime>
+    </File>
+    <File Include="JS/mdb.min.js">
+      <publishTime>03/08/2017 17:14:58</publishTime>
+    </File>
+    <File Include="JS/Support.aspx">
+      <publishTime>03/09/2017 13:36:05</publishTime>
+    </File>
+    <File Include="JS/tether.js">
+      <publishTime>03/08/2017 17:14:58</publishTime>
+    </File>
+    <File Include="JS/tether.min.js">
+      <publishTime>03/08/2017 17:14:58</publishTime>
+    </File>
+    <File Include="kiss.jpg">
+      <publishTime>08/05/2017 12:35:09</publishTime>
+    </File>
+    <File Include="LatestNews.aspx">
+      <publishTime>08/05/2017 13:25:25</publishTime>
+    </File>
+    <File Include="map.png">
+      <publishTime>08/05/2017 12:46:49</publishTime>
+    </File>
+    <File Include="New.aspx">
+      <publishTime>03/30/2017 16:56:53</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/16/2017 21:29:27</publishTime>
+    </File>
+    <File Include="Ponies.aspx">
+      <publishTime>08/05/2017 13:15:02</publishTime>
+    </File>
+    <File Include="Privacy.aspx">
+      <publishTime>07/27/2017 19:48:10</publishTime>
+    </File>
+    <File Include="Sass/mdb.scss">
+      <publishTime>03/08/2017 17:14:58</publishTime>
+    </File>
+    <File Include="Sass/mdb/free/data/_colors.scss">
+      <publishTime>03/08/2017 17:14:59</publishTime>
+    </File>
+    <File Include="Sass/mdb/free/data/_mixins.scss">
+      <publishTime>03/08/2017 17:14:59</publishTime>
+    </File>
+    <File Include="Sass/mdb/free/data/_prefixer.scss">
+      <publishTime>03/08/2017 17:14:59</publishTime>
+    </File>
+    <File Include="Sass/mdb/free/data/_variables-b4.scss">
+      <publishTime>03/08/2017 17:14:59</publishTime>
+    </File>
+    <File Include="Sass/mdb/free/data/_variables.scss">
+      <publishTime>03/08/2017 17:14:59</publishTime>
+    </File>
+    <File Include="Sass/mdb/free/_animations.scss">
+      <publishTime>03/08/2017 17:14:58</publishTime>
+    </File>
+    <File Include="Sass/mdb/free/_buttons.scss">
+      <publishTime>03/08/2017 17:14:58</publishTime>
+    </File>
+    <File Include="Sass/mdb/free/_cards-basic.scss">
+      <publishTime>03/08/2017 17:14:58</publishTime>
+    </File>
+    <File Include="Sass/mdb/free/_carousels-basic.scss">
+      <publishTime>03/08/2017 17:14:58</publishTime>
+    </File>
+    <File Include="Sass/mdb/free/_footer.scss">
+      <publishTime>03/08/2017 17:14:58</publishTime>
+    </File>
+    <File Include="Sass/mdb/free/_forms-basic.scss">
+      <publishTime>03/08/2017 17:14:58</publishTime>
+    </File>
+    <File Include="Sass/mdb/free/_global.scss">
+      <publishTime>03/08/2017 17:14:58</publishTime>
+    </File>
+    <File Include="Sass/mdb/free/_helpers.scss">
+      <publishTime>03/08/2017 17:14:58</publishTime>
+    </File>
+    <File Include="Sass/mdb/free/_hover-effects.scss">
+      <publishTime>03/08/2017 17:14:59</publishTime>
+    </File>
+    <File Include="Sass/mdb/free/_navbars.scss">
+      <publishTime>03/08/2017 17:14:59</publishTime>
+    </File>
+    <File Include="Sass/mdb/free/_roboto.scss">
+      <publishTime>03/08/2017 17:14:59</publishTime>
+    </File>
+    <File Include="Sass/mdb/free/_typography.scss">
+      <publishTime>03/08/2017 17:14:59</publishTime>
+    </File>
+    <File Include="Sass/mdb/free/_waves.scss">
+      <publishTime>03/08/2017 17:14:59</publishTime>
+    </File>
+    <File Include="Sass/README.txt">
+      <publishTime>03/08/2017 17:14:58</publishTime>
+    </File>
+    <File Include="Site1.Master">
+      <publishTime>08/05/2017 13:57:06</publishTime>
+    </File>
+    <File Include="Site2.Master">
+      <publishTime>07/28/2017 13:29:42</publishTime>
+    </File>
+    <File Include="sitemap.xml">
+      <publishTime>03/26/2017 21:32:38</publishTime>
+    </File>
+    <File Include="Support.aspx">
+      <publishTime>08/05/2017 14:21:15</publishTime>
+    </File>
+    <File Include="tack.html">
+      <publishTime>03/27/2017 20:48:23</publishTime>
+    </File>
+    <File Include="test.aspx">
+      <publishTime>03/16/2017 21:55:37</publishTime>
+    </File>
+    <File Include="TestSite.aspx">
+      <publishTime>09/04/2017 20:37:53</publishTime>
+    </File>
+    <File Include="TestSite.Master">
+      <publishTime>08/06/2017 20:11:19</publishTime>
+    </File>
+    <File Include="VolunteerInfo.aspx">
+      <publishTime>08/04/2017 16:47:53</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/27/2017 20:47:24</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

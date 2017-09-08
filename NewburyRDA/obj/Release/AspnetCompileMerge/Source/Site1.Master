@@ -1,0 +1,170 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="NewburyRDA.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+	<title>NewburyRDA</title>
+    <meta name="description" content="Welcome to the Newbury RDA">
+    <meta name="keywords" content="Newbury RDA, Newbury Riding for the Disabled Association horses berkshire hampstead norreys">
+
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-manifest.json"/>
+    <meta name="mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+	<link rel="manifest" href="manifest.json" />
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"/>
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet"/>
+
+	<!-- Material Design Bootstrap -->
+	<link href="css/mdb.min.css" rel="stylesheet"/>
+
+	<!-- Your custom styles (optional) -->
+	<link href="css/style.css" rel="stylesheet"/>
+
+
+	<style>
+		.smallfont {
+			font-size: 9px;
+			color: white;
+		}
+
+		.mediumfont {
+			font-size: 13px;
+			color: black;
+		}
+
+html body .container-fluid.body-content {
+  position: absolute;
+  top: 55px;
+  bottom: 68px;
+  right: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+
+	</style>
+
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+
+
+
+<body >
+
+	<!-- SCRIPTS -->
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="js/tether.min.js"></script>
+
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="js/mdb.min.js"></script>
+
+
+<script>
+$(".nav li").on("click", function(){
+  $(".nav").find(".active").removeClass("active");
+  $(this).parent().addClass("active");
+});
+</script>
+
+	<form id="form1">
+		<div class="container" >
+			<!--Navbar-->
+
+			<nav class="navbar navbar-toggleable-md navbar-dark green fixed-top " >
+                <div class="container" >
+				<button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand" href="default.aspx">
+					<strong>Newbury RDA</strong>
+				</a>
+				<div class="collapse navbar-collapse" id="navbarNav1">
+					<ul class="nav navbar-nav  ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="Default.aspx">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Contacts.aspx">Contacts</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="VolunteerInfo.aspx">Volunteer Info</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Support.aspx">Support</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Ponies.aspx" >Ponies</a>
+						</li>
+						<li class="nav-item dropdown btn-group">
+							<a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other links</a>
+							<div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
+								<a class="dropdown-item" href="Form.aspx">Events</a>
+								<a class="dropdown-item" href="Gallery.aspx">Photo Gallery</a>
+								<a class="dropdown-item" href="FAQ.aspx">FAQ</a>
+								<a class="dropdown-item">Members</a>
+								<a class="dropdown-item">Autmn Gift Fair</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+                </div>
+			</nav>
+			<br />
+			<br />
+		</div>
+	</form>
+
+	<div class="container-fluid  body-content" align="center">
+	<div  style="max-width:840px" align="left">
+
+		<div class="row" style="margin:10px">
+			<div class="col-sm-12 waves-effect">
+				<div class="card">
+					<asp:Image ID="Image2" ImageUrl="Img/title.jpg" Width="100%" runat="server" />
+				</div>
+			</div>
+		</div>
+		<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+		</asp:ContentPlaceHolder>
+
+	</div>
+	</div>
+
+	<form id="form2">
+		<nav class="navbar fixed-bottom navbar-dark green">
+			<div align="center" class="smallfont">
+				<span>Site Created by Matthew Lett</span>
+				<br />
+				<span>©  Newbury RDA 2017</span>
+				<br />
+				<span>Please do not reproduce any images without consent</span>
+				<br />
+				<span>Please click here for our Privacy Policy and Accessabilty Statement</span>
+			</div>
+		</nav>
+	</form>
+
+
+	<!-- Start your project here-->
+
+	<!-- /Start your project here-->
+
+
+
+
+
+</body>
+</html>

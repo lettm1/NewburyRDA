@@ -62,16 +62,15 @@
         <div class="col-sm-12    " align="center" style="padding:0px" >
             <div class="grad" style="margin: 0px; padding: 10px">
                 <h2 class="  ">Latest Events</h2>
-                <a href="Spencer.aspx"><marquee SCROLLAMOUNT=15 behavior="scroll" direction="left">
+                <a href="Events.aspx#spencer"><marquee SCROLLAMOUNT=15 behavior="scroll" direction="left">
                 <p style="margin:0px;font-weight:bold">AUDIENCE WITH SPENCER WILTON AT THE AUTUMN GIFT FAIR ON 28 SEPTEMBER AT 11.30 AM Click for Details...</p>
                 </marquee></a>
 
-                <p>SPENCER WILTON AT THE AUTUMN GIFT FAIR - Click <a href="Spencer.aspx">here</a> for details.</p>
+                <p>SPENCER WILTON AT THE AUTUMN GIFT FAIR - Click <a href="Events.aspx#spencer">here</a> for details.</p>
                 <p>DO NOT MISS our AUTUMN FAIR on 28 September 2017 with 50+ quality stalls - start your Christmas shopping early!  Click <a href="Events.aspx#autumnfair">here</a> for details.</p>
                 <p>First Aid Training - 14 September 2017.  If you are an RDA volunteer and wish to attend click <a href="Events.aspx#training">here</a> for details.</p>
                 <p>New Pony Added to the Team. click <a href="Ponies.aspx">here</a> for details.</p>
                 <p>CHLOE and SAM EXCEL at the National Championships.  Click <a href="LatestNews.aspx#nationalchamps">here</a> for details.</p>
-                <p>AGM 12 September at 6.30 pm – <a href="mailto:info@newburyrda.co.uk" target="_top">info@newburyrda.co.uk</a></p>
                 <p>You can now support us using <a href="http://uk.virginmoneygiving.com/charity-web/charity/finalCharityHomepage.action?charityId=1006907">VirginMoneyGiving</a>.</p>
             </div>
         </div>

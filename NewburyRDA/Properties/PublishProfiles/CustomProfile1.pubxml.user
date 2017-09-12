@@ -11,19 +11,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="Accessibility.aspx">
-      <publishTime>07/27/2017 19:48:10</publishTime>
+      <publishTime>09/10/2017 15:56:17</publishTime>
     </File>
     <File Include="AutumnGiftFair-donotuse.aspx">
       <publishTime>03/28/2017 18:41:57</publishTime>
     </File>
     <File Include="AutumnGiftFair.aspx">
-      <publishTime>09/04/2017 17:55:53</publishTime>
+      <publishTime>09/10/2017 15:56:17</publishTime>
     </File>
     <File Include="AutumnGiftFair.pdf">
       <publishTime>07/27/2017 15:41:20</publishTime>
     </File>
     <File Include="AutumnGiftFairStalls.aspx">
-      <publishTime>07/29/2017 16:39:43</publishTime>
+      <publishTime>09/10/2017 15:56:17</publishTime>
     </File>
     <File Include="AutumnGiftFayre.aspx">
       <publishTime>03/17/2017 14:32:47</publishTime>
@@ -38,7 +38,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/25/2017 17:00:12</publishTime>
     </File>
     <File Include="bin/AutumnGiftFair.aspx">
-      <publishTime>09/04/2017 20:37:53</publishTime>
+      <publishTime>09/10/2017 15:56:17</publishTime>
     </File>
     <File Include="bin/AutumnGiftFair.aspx.cs">
       <publishTime>07/27/2017 15:26:38</publishTime>
@@ -47,7 +47,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/27/2017 15:26:38</publishTime>
     </File>
     <File Include="bin/Contacts.aspx">
-      <publishTime>09/04/2017 16:46:25</publishTime>
+      <publishTime>09/10/2017 15:56:17</publishTime>
     </File>
     <File Include="bin/Contacts.aspx.cs">
       <publishTime>03/08/2017 20:54:29</publishTime>
@@ -62,7 +62,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/08/2017 17:14:56</publishTime>
     </File>
     <File Include="bin/Default.aspx">
-      <publishTime>09/04/2017 20:37:53</publishTime>
+      <publishTime>09/12/2017 17:21:34</publishTime>
     </File>
     <File Include="bin/Default.aspx.cs">
       <publishTime>06/20/2017 20:07:47</publishTime>
@@ -80,7 +80,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/20/2017 20:08:03</publishTime>
     </File>
     <File Include="bin/FAQ.aspx">
-      <publishTime>08/04/2017 16:28:37</publishTime>
+      <publishTime>09/10/2017 15:56:18</publishTime>
     </File>
     <File Include="bin/FAQ.aspx.cs">
       <publishTime>03/09/2017 14:03:44</publishTime>
@@ -176,10 +176,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/13/2016 03:10:32</publishTime>
     </File>
     <File Include="bin/NewburyRDA.dll">
-      <publishTime>08/06/2017 19:47:42</publishTime>
+      <publishTime>09/12/2017 17:19:43</publishTime>
     </File>
     <File Include="bin/Ponies.aspx">
-      <publishTime>08/05/2017 13:15:02</publishTime>
+      <publishTime>09/10/2017 15:56:18</publishTime>
     </File>
     <File Include="bin/Ponies.aspx.cs">
       <publishTime>03/09/2017 14:03:27</publishTime>
@@ -278,7 +278,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/26/2017 21:32:38</publishTime>
     </File>
     <File Include="bin/Support.aspx">
-      <publishTime>08/05/2017 14:21:15</publishTime>
+      <publishTime>09/10/2017 15:56:18</publishTime>
     </File>
     <File Include="bin/Support.aspx.cs">
       <publishTime>03/09/2017 13:37:08</publishTime>
@@ -287,7 +287,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/09/2017 13:37:08</publishTime>
     </File>
     <File Include="bin/VolunteerInfo.aspx">
-      <publishTime>08/04/2017 16:47:53</publishTime>
+      <publishTime>09/10/2017 15:56:16</publishTime>
     </File>
     <File Include="bin/VolunteerInfo.aspx.cs">
       <publishTime>03/08/2017 20:43:02</publishTime>
@@ -296,7 +296,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/08/2017 20:43:02</publishTime>
     </File>
     <File Include="bin/Web.config">
-      <publishTime>06/27/2017 20:47:24</publishTime>
+      <publishTime>09/09/2017 13:31:29</publishTime>
     </File>
     <File Include="bin/Web.Debug.config">
       <publishTime>03/08/2017 17:13:21</publishTime>
@@ -305,10 +305,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/08/2017 17:13:22</publishTime>
     </File>
     <File Include="chairman.aspx">
-      <publishTime>08/04/2017 16:29:28</publishTime>
+      <publishTime>09/10/2017 15:56:17</publishTime>
     </File>
     <File Include="Contacts.aspx">
-      <publishTime>09/04/2017 16:46:25</publishTime>
+      <publishTime>09/10/2017 15:56:17</publishTime>
     </File>
     <File Include="CSS/bootstrap.css">
       <publishTime>03/08/2017 17:14:56</publishTime>
@@ -323,7 +323,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2017 20:30:37</publishTime>
     </File>
     <File Include="CSS/mdb.css">
-      <publishTime>03/08/2017 17:14:56</publishTime>
+      <publishTime>09/10/2017 15:56:17</publishTime>
     </File>
     <File Include="CSS/mdb.min.css">
       <publishTime>03/08/2017 17:14:56</publishTime>
@@ -332,7 +332,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/08/2017 17:14:56</publishTime>
     </File>
     <File Include="Default.aspx">
-      <publishTime>09/04/2017 20:37:53</publishTime>
+      <publishTime>09/12/2017 17:21:34</publishTime>
     </File>
     <File Include="Default2.aspx">
       <publishTime>06/19/2017 21:48:08</publishTime>
@@ -341,13 +341,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/27/2017 20:26:04</publishTime>
     </File>
     <File Include="Default_org.aspx">
-      <publishTime>06/27/2017 20:20:44</publishTime>
+      <publishTime>09/10/2017 15:56:17</publishTime>
     </File>
     <File Include="Events.aspx">
-      <publishTime>09/04/2017 20:37:53</publishTime>
+      <publishTime>09/10/2017 15:56:18</publishTime>
     </File>
     <File Include="FAQ.aspx">
-      <publishTime>08/04/2017 16:28:37</publishTime>
+      <publishTime>09/10/2017 15:56:18</publishTime>
     </File>
     <File Include="Font/Roboto/Roboto-Bold.eot">
       <publishTime>03/08/2017 17:14:56</publishTime>
@@ -412,6 +412,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Form.aspx">
       <publishTime>03/10/2017 18:41:27</publishTime>
     </File>
+    <File Include="FundRaising.aspx">
+      <publishTime>09/09/2017 14:08:38</publishTime>
+    </File>
     <File Include="Gallery.aspx">
       <publishTime>03/10/2017 18:28:07</publishTime>
     </File>
@@ -450,6 +453,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Img/cream_dust.png">
       <publishTime>10/01/2012 15:22:16</publishTime>
+    </File>
+    <File Include="Img/donate.png">
+      <publishTime>09/09/2017 13:46:27</publishTime>
     </File>
     <File Include="Img/facebook.png">
       <publishTime>05/14/2017 18:31:39</publishTime>
@@ -691,6 +697,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Img/volunteer.jpg">
       <publishTime>08/05/2017 12:52:17</publishTime>
     </File>
+    <File Include="Img/volunteer2.png">
+      <publishTime>09/10/2017 11:09:19</publishTime>
+    </File>
     <File Include="Img/Wine_Bluff_Evening_2017_poster.jpg">
       <publishTime>03/09/2017 12:03:53</publishTime>
     </File>
@@ -740,7 +749,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/05/2017 12:35:09</publishTime>
     </File>
     <File Include="LatestNews.aspx">
-      <publishTime>08/05/2017 13:25:25</publishTime>
+      <publishTime>09/10/2017 16:08:30</publishTime>
     </File>
     <File Include="map.png">
       <publishTime>08/05/2017 12:46:49</publishTime>
@@ -748,14 +757,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="New.aspx">
       <publishTime>03/30/2017 16:56:53</publishTime>
     </File>
+    <File Include="NoPic.Master">
+      <publishTime>09/09/2017 14:07:31</publishTime>
+    </File>
     <File Include="packages.config">
       <publishTime>03/16/2017 21:29:27</publishTime>
     </File>
     <File Include="Ponies.aspx">
-      <publishTime>08/05/2017 13:15:02</publishTime>
+      <publishTime>09/10/2017 15:56:18</publishTime>
     </File>
     <File Include="Privacy.aspx">
-      <publishTime>07/27/2017 19:48:10</publishTime>
+      <publishTime>09/10/2017 15:56:17</publishTime>
     </File>
     <File Include="Sass/mdb.scss">
       <publishTime>03/08/2017 17:14:58</publishTime>
@@ -818,7 +830,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/08/2017 17:14:58</publishTime>
     </File>
     <File Include="Site1.Master">
-      <publishTime>08/05/2017 13:57:06</publishTime>
+      <publishTime>09/09/2017 14:17:39</publishTime>
     </File>
     <File Include="Site2.Master">
       <publishTime>07/28/2017 13:29:42</publishTime>
@@ -826,8 +838,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="sitemap.xml">
       <publishTime>03/26/2017 21:32:38</publishTime>
     </File>
+    <File Include="Spencer.aspx">
+      <publishTime>09/12/2017 17:19:04</publishTime>
+    </File>
     <File Include="Support.aspx">
-      <publishTime>08/05/2017 14:21:15</publishTime>
+      <publishTime>09/10/2017 15:56:18</publishTime>
     </File>
     <File Include="tack.html">
       <publishTime>03/27/2017 20:48:23</publishTime>
@@ -836,16 +851,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/16/2017 21:55:37</publishTime>
     </File>
     <File Include="TestSite.aspx">
-      <publishTime>09/04/2017 20:37:53</publishTime>
+      <publishTime>09/11/2017 17:42:32</publishTime>
     </File>
     <File Include="TestSite.Master">
-      <publishTime>08/06/2017 20:11:19</publishTime>
+      <publishTime>09/10/2017 16:37:43</publishTime>
     </File>
     <File Include="VolunteerInfo.aspx">
-      <publishTime>08/04/2017 16:47:53</publishTime>
+      <publishTime>09/10/2017 15:56:16</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/27/2017 20:47:24</publishTime>
+      <publishTime>09/09/2017 13:31:29</publishTime>
     </File>
   </ItemGroup>
 </Project>

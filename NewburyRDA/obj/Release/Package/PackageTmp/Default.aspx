@@ -23,7 +23,7 @@
 
     <div class="row" style="background-color:whitesmoke;padding-top:40px; padding-bottom:40px" >
         <div class="col-md-12" style="padding:0px" >
-            <div class="animated flipInX"  style="margin: 0px 10px 10px 10px">
+            <div class=" "  style="margin: 0px 10px 10px 10px">
                 <br />
                 <h1 class= "hidden-sm-down" style="font-weight: normal;text-align:center">Welcome  to Newbury Riding for the Disabled</h1>
                 <h3 class= "hidden-md-up" style="font-weight: normal;text-align:center"><strong>Welcome  to Newbury Riding </strong></h3>
@@ -50,18 +50,23 @@
             </div>
         </div>
         
-        <div class="col-12   hidden-sm-up animated fadeIn"  style="background-color:white;padding:0px">
+        <div class="col-12   hidden-sm-up  "  style="background-color:white;padding:0px">
             <asp:Image ID="Image1" ImageUrl="Img/newbury_rda_kisses.jpg" Width="100%" runat="server" />
         </div>
-        <div class="hidden-xs-down   col-sm-4   animated fadeIn"  style="background-color:white;padding-right:0px">
+        <div class="hidden-xs-down   col-sm-4    "  style="background-color:white;padding-right:0px">
             <asp:Image ID="Image2" ImageUrl="Img/newbury_rda_kisses.jpg" Width="100%" runat="server" />
         </div>
     </div>
 
     <div class="row" style="padding:0px" >
-        <div class="col-sm-12  animated fadeIn " align="center" style="padding:0px" >
+        <div class="col-sm-12    " align="center" style="padding:0px" >
             <div class="grad" style="margin: 0px; padding: 10px">
-                <h2 class="animated zoomIn infinite">Latest Events</h2>
+                <h2 class="  ">Latest Events</h2>
+                <a href="Spencer.aspx"><marquee SCROLLAMOUNT=15 behavior="scroll" direction="left">
+                <p style="margin:0px;font-weight:bold">AUDIENCE WITH SPENCER WILTON AT THE AUTUMN GIFT FAIR ON 28 SEPTEMBER AT 11.30 AM Click for Details...</p>
+                </marquee></a>
+
+                <p>SPENCER WILTON AT THE AUTUMN GIFT FAIR - Click <a href="Spencer.aspx">here</a> for details.</p>
                 <p>DO NOT MISS our AUTUMN FAIR on 28 September 2017 with 50+ quality stalls - start your Christmas shopping early!  Click <a href="Events.aspx#autumnfair">here</a> for details.</p>
                 <p>First Aid Training - 14 September 2017.  If you are an RDA volunteer and wish to attend click <a href="Events.aspx#training">here</a> for details.</p>
                 <p>New Pony Added to the Team. click <a href="Ponies.aspx">here</a> for details.</p>

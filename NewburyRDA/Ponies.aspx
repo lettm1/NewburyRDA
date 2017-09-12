@@ -19,7 +19,7 @@
 
     <div class="row" style="background-color: white">
         <div class="col-md-12" style="padding: 0px">
-            <div class="animated flipInX" style="margin-bottom: 10px">
+            <div class=" " style="margin-bottom: 10px">
                 <br />
                 <h1 class="hidden-sm-down" style="font-weight: normal; text-align: center">Ponies</h1>
                 <h4 class="hidden-md-up" style="font-weight: normal; text-align: center"><strong>Ponies</strong></h4>
@@ -31,7 +31,6 @@
         <br />
 
 
-        <div class="row">
 
             <div style="font-size: 36px !important">
                 <div class="card">
@@ -152,7 +151,6 @@
 
                     </div>
                 </div>
-            </div>
 
 
             <div class="card">

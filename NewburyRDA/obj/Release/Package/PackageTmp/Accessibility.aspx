@@ -5,11 +5,11 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="row" style="padding:0px;margin:40px 0px 40px 0px" >
         <div class="col-md-12" style="padding:0px" >
-            <div class="animated flipInX"  style="margin-bottom: 10px">
+            <div class=" "  style="margin-bottom: 10px">
                 <br />
                 <h1 class= "hidden-sm-down" style="font-weight: normal;text-align:center">Accessibility Statement</h1>
                 <h4 class= "hidden-md-up" style="font-weight: normal;text-align:center"><strong>Accessibility Statement</strong></h4>
-            </div>
+            </div>        
         </div>
     </div>
         <div class="row">

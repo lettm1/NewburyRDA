@@ -6,7 +6,7 @@
 
     <div class="row" style="background-color:white" >
         <div class="col-md-12" style="padding:0px" >
-            <div class="animated flipInX"  style="margin-bottom: 10px">
+            <div class=" "  style="margin-bottom: 10px">
                 <br />
                 <h1 class= "hidden-sm-down" style="font-weight: normal;text-align:center">Chairman's Update Newbury Group 2015-2016</h1>
                 <h4 class= "hidden-md-up" style="font-weight: normal;text-align:center"><strong>Chairman's Update Newbury Group 2015-2016</strong></h4>
@@ -20,7 +20,7 @@
 
 
 
-                            <p>We are currently running 10 classes split between 4 schools on a weekly basis.  In addition, there is a Sunday lesson and a couple of private lessons.</p>
+                            <p>We are  currently running 10 classes split between 4 schools on a weekly basis.  In addition, there is a Sunday lesson and a couple of private lessons.</p>
 
                             <p>We have had a busy and eventful year.</p>
 

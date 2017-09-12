@@ -88,6 +88,7 @@
     <Content Include="FAQ.aspx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="FundRaising.aspx" />
     <Content Include="Gallery.aspx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -106,6 +107,7 @@
     <Content Include="Img\boris2.jpg" />
     <Content Include="Img\calendar-icon.png" />
     <Content Include="Img\cream_dust.png" />
+    <Content Include="Img\donate.png" />
     <Content Include="Img\facebook.png" />
     <Content Include="Img\fair.png" />
     <Content Include="Img\fair1.jpg" />
@@ -211,6 +213,7 @@
     <Content Include="Img\truck\IMG_5856.JPG" />
     <Content Include="Img\truck\IMG_5904.JPG" />
     <Content Include="Img\volunteer.jpg" />
+    <Content Include="Img\volunteer2.png" />
     <Content Include="Img\Wine_Bluff_Evening_2017_poster.jpg" />
     <Content Include="Img\woody.jpg" />
     <Content Include="JS\jquery.mobile-1.4.5.js">
@@ -278,11 +281,13 @@
     </SplashScreen>
     <Content Include="AutumnGiftFair.pdf" />
     <Content Include="JS\jquery-mobile-1.3.2.js" />
+    <Content Include="NoPic.Master" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
     <None Include="Properties\PublishProfiles\NewburyRDA - Web Deploy.pubxml" />
     <Content Include="Site1.Master" />
     <Content Include="Site2.Master" />
+    <Content Include="Spencer.aspx" />
     <Content Include="TestSite.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -433,6 +438,13 @@
       <DependentUpon>Form.aspx</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
+    <Compile Include="FundRaising.aspx.cs">
+      <DependentUpon>FundRaising.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FundRaising.aspx.designer.cs">
+      <DependentUpon>FundRaising.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Gallery.aspx.cs">
       <DependentUpon>Gallery.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -462,6 +474,13 @@
     </Compile>
     <Compile Include="New.aspx.designer.cs">
       <DependentUpon>New.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NoPic.Master.cs">
+      <DependentUpon>NoPic.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NoPic.Master.designer.cs">
+      <DependentUpon>NoPic.Master</DependentUpon>
     </Compile>
     <Compile Include="Ponies.aspx.cs">
       <DependentUpon>Ponies.aspx</DependentUpon>
@@ -493,6 +512,13 @@
     </Compile>
     <Compile Include="Site2.Master.designer.cs">
       <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Spencer.aspx.cs">
+      <DependentUpon>Spencer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Spencer.aspx.designer.cs">
+      <DependentUpon>Spencer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Support.aspx.cs">
       <DependentUpon>Support.aspx</DependentUpon>

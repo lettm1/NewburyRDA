@@ -207,7 +207,6 @@
 
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
-    <script type="text/javascript" src="js/jquery-mobile-1.4.5.js"></script>
 
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="js/tether.min.js"></script>
@@ -222,7 +221,7 @@
 
         <nav class="navbar navbar-toggleable-md navbar-dark  fixed-top " style="border-radius: 0px; background-color: #3E8817">
             <div class="container">
-                <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler navbar-toggler-right me " type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand " href="TestSite.aspx">
@@ -246,7 +245,7 @@
                             <a class="nav-link" href="#FAQ">FAQ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#News">Latest News</a>
+                            <a class="nav-link"   href="#News">Latest News</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#Events">Events</a>
@@ -269,9 +268,8 @@
                 </div>
             </div>
 
-    <div id="topp" class="container  " style="" align="center">
+    <div id="topp" class="container-fluid  " style="padding:0px; " align="center">
 
-        <div align="center">
 
 
 
@@ -291,25 +289,24 @@
 
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-        </div>
     </div>
 
 
     <form id="form2">
-        <nav class="navbar  navbar-dark " style="background-color: #3E8817">
-            <div align="center" >
-                <div class="row bright">
-                    <div class="col-sm-3 smallerfont" >
-                        <span class="smallerfont">Site Created by <a class="smallerfont" href="mailto:matthew.lett1@gmail.com" target="_top">Matthew Lett</a> - ©  Newbury RDA 2017</span>
+        <nav class="navbar  navbar-dark " style="padding:40px 10px 20px 10px;background-color: #3E8817">
+            <div align="left" >
+                <div class="row bright"  >
+                    <div class="col-12 col-sm-3 " style="color:white;">
+                        <p class="" style="height:60px;">Site Created by <a class="" href="mailto:matthew.lett1@gmail.com" target="_top">Matthew Lett</a> - ©  Newbury RDA 2017</p>
                     </div>
-                    <div class="col-sm-3 smallerfont" >
-                        <span class="smallerfont">Please do not reproduce any images without consent</span>
+                    <div class="col-12 col-sm-3 " style="color:white">
+                        <p class="" style="height:60px;">Please do not reproduce any images without consent</p>
                     </div>
-                    <div class="col-sm-3 smallerfont" >
-                        <span class="smallerfont">Please click here for our <a class="smallerfont" href="http://www.newburyrda.co.uk/Privacy.aspx">Privacy Policy </a> and <a class="smallerfont" href="http://www.newburyrda.co.uk/Accessibility.aspx">Accessabilty Statement</a></span>
+                    <div class="col-12 col-sm-3 " style="color:white">
+                        <p class="" style="height:60px;"><a class="" href="http://www.newburyrda.co.uk/Privacy.aspx">Privacy Policy </a> and <a class="" href="http://www.newburyrda.co.uk/Accessibility.aspx">Accessabilty Statement</a></p>
                     </div>
-                    <div class="col-sm-3 smallerfont" >
-                        <span class="smallerfont"><a href="TestSite.aspx">Test Site...</a></span>
+                    <div class="col-12 col-sm-3 " style="color:white">
+                        <p class="" style="height:60px;"><a href="TestSite.aspx">Test Site...</a></p>
                     </div>
                 </div>
             </div>
@@ -352,6 +349,7 @@
     });
 
 
+
     $(window).on("load ", function (e) {
         //var height = $(".bgImage")[0].getBoundingClientRect().height;
         var height = $(".bgImage").height();
@@ -360,6 +358,7 @@
 
         $(".jumbotronhalf").css("height", height * .33);
     });
+
 
 
 

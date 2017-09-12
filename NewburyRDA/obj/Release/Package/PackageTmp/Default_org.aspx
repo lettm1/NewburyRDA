@@ -14,7 +14,7 @@
 
     <div class="row">
         <div class="col-md-12" style="flex: auto">
-            <div class="animated flipInX">
+            <div class=" ">
                 <h1 class= "hidden-sm-down" style="font-weight: normal">Welcome  to Newbury Riding for the Disabled</h1>
                 <h4 class= "hidden-md-up" style="font-weight: normal">Welcome  to Newbury Riding for the Disabled</h4>
             </div>
@@ -29,7 +29,7 @@
                                     <p class="">No previous experience is required as all training is provided.. We are a friendly group who always welcome new faces.</p>
                                 </div>
                             </div>
-                            <div class="col-sm-6 animated fadeIn">
+                            <div class="col-sm-6  ">
                                 <asp:Image ID="Image1" ImageUrl="Img/newbury_rda_kisses.jpg" Height="100%" Width="100%" runat="server" />
                             </div>
                         </div>
@@ -38,7 +38,7 @@
                 <div class="col-md-5 "  >
                     <div class="card" style="margin-bottom: 10px">
                         <div class="row">
-                            <div class="col-sm-12  animated fadeIn " align="center">
+                            <div class="col-sm-12    " align="center">
                                 <div class="grad" style="margin: 0px; padding: 10px">
                                     <h2 class="animated zoomIn">Latest Events</h2>
                                     <p>DO NOT MISS our AUTUMN FAIR on 28 September 2017 with 40+ quality stalls - start your Christmas shopping early!  Click <a href="Events.aspx#autumnfair">here</a> for details.</p>

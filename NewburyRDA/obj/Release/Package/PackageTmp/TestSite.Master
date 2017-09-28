@@ -24,9 +24,9 @@
 
     <!-- Bootstrap core CSS -->
 
-
-
     <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+
 
     <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" rel="stylesheet" />
@@ -192,6 +192,10 @@
         .card {
             margin: 0px;
         }
+
+        .container-fluid  {
+        }
+
     </style>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -215,11 +219,10 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
+     <script type="text/javascript" src="js/mdb.min.js"></script>
 
     <form id="form1">
-
-        <nav class="navbar navbar-toggleable-md navbar-dark  fixed-top " style="border-radius: 0px; background-color: #3E8817">
+        <nav class="navbar navbar-toggleable-md navbar-dark  fixed-top " style="border-radius: 0px; background-color:#256902"> <%--#3E8817">--%>
             <div class="container">
                 <button class="navbar-toggler navbar-toggler-right me " type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -228,9 +231,9 @@
                     <strong>Newbury RDA</strong>
                 </a>
                 <div class="collapse navbar-collapse" id="navbarNav1">
-                    <ul class="nav navbar-nav  ml-auto">
+                    <ul class="nav navbar-nav  ml-auto" >
                         <li class="nav-item">
-                            <a class="nav-link" href="#autumnfair">Autumn Gift Fair</a>
+                            <a class="nav-link " href="#autumnfair">Autumn Gift Fair</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#Volunteer">Volunteer Info</a>
@@ -258,54 +261,40 @@
                 </div>
             </div>
         </nav>
-    </form>
 
 
 
-            <div class="bgNOT">
-                <div class="container-fluid" style="padding: 0px; margin: 45px 0 0 0; margin-bottom: 0px" align="center">
-                    <img class="bgImage" src="Img/title3.jpg" style="cursor: pointer; width: 100%;max-width:1140px; " onclick="location.href='default.aspx'" />
+        <div class="container-fluid" style=" margin-top: 45px ; margin-bottom: 0px" align="center">
+            <div class="row" style="max-width:1300px; ">
+                <div class="col-12" style="padding:0px;" align="center">
+                    <img class="bgImage"  src="Img/title3.jpg" style="cursor: pointer; width: 100%; " onclick="location.href='TestSite.aspx'" />
+
                 </div>
             </div>
-
-    <div id="topp" class="container-fluid  " style="padding:0px; " align="center">
-
+        </div>
 
 
-
-<%--            <div class="jumbotronn" style="margin-top: 50px; width: 100%; padding: 0px;">
-                <div style="height: 200px"></div>
-                <div class="row">
-                    <div class="hidden-xs col-sm-1">
-                    </div>
-                    <div class="col-xs-12 col-sm-10">
-                        <h1 style="color: red; font-weight: bold; background-color: white; text-align: center"></h1>
-                    </div>
-                    <div class="hidden-xs col-sm-1">
-                    </div>
-                </div>
-            </div>--%>
+        <div id="topp" class="container-fluid  " align="center">
 
 
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-    </div>
+        </div>
 
 
-    <form id="form2">
-        <nav class="navbar  navbar-dark " style="padding:40px 10px 20px 10px;background-color: #3E8817">
+        <nav class="navbar  navbar-dark " style="padding-top:20px;background-color:grey">
             <div align="left" >
                 <div class="row bright"  >
-                    <div class="col-12 col-sm-3 " style="color:white;">
+                    <div class="col-12 col-sm-3 " style="color:white;" align="center">
                         <p class="" style="height:60px;">Site Created by <a class="" href="mailto:matthew.lett1@gmail.com" target="_top">Matthew Lett</a> - ©  Newbury RDA 2017</p>
                     </div>
-                    <div class="col-12 col-sm-3 " style="color:white">
+                    <div class="col-12 col-sm-3 " style="color:white" align="center">
                         <p class="" style="height:60px;">Please do not reproduce any images without consent</p>
                     </div>
-                    <div class="col-12 col-sm-3 " style="color:white">
+                    <div class="col-12 col-sm-3 " style="color:white" align="center">
                         <p class="" style="height:60px;"><a class="" href="http://www.newburyrda.co.uk/Privacy.aspx">Privacy Policy </a> and <a class="" href="http://www.newburyrda.co.uk/Accessibility.aspx">Accessabilty Statement</a></p>
                     </div>
-                    <div class="col-12 col-sm-3 " style="color:white">
+                    <div class="col-12 col-sm-3 " style="color:white" align="center">
                         <p class="" style="height:60px;"><a href="TestSite.aspx">Test Site...</a></p>
                     </div>
                 </div>
